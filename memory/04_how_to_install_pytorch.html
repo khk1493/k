@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>k</title>
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+		p, li, div {
+			font-size: 16pt;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hot to install PyTorch on windows</h1>
+	<br><br>
+	<p>날짜: 2018-09-27</p>
+	<br>
+	<ol>
+		<li>Anaconda3 설치</li>
+		<li>Pycharm-community 설치</li>
+		<li>아나콘다 프롬프트 창을 연다.</li>
+		<li><p>가상환경 생성</p>(base) C:\Users\user> conda create --name (가상환경 이름) python=3.6</li>
+		<li><p>가상환경 안에 들어간다.</p>
+			(base) C:\Users\user> activate (가상환경 이름)</li>
+		<li><p>pip update</p>
+			(가상환경 이름) C:\Users\user> python -m pip install --upgrade pip</li>
+		<li><p>conda upgrade</p>
+			(가상환경 이름) C:\Users\user> conda upgrade conda</li>
+		<li><p>pytorch 설치</p>
+			(가상환경 이름) C:\Users\user> conda install pytorch-cpu -c pytorch</li>
+		<li><p>torchvision 설치</p>
+			(가상환경 이름) C:\Users\user> pip3 install torchvision</li>
+	</ol>
+</body>
+</html>

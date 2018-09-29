@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>k</title>
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+		p, li, div {
+			font-size: 16pt;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hot to install PyTorch on linux(fedora)</h1>
+	<br><br>
+	<p>날짜: 2018-09-27</p>
+	<br>
+	<ol>
+		<li>Anaconda3 설치</li>
+		<li>Pycharm-community 설치</li>
+		<li>아나콘다 프롬프트 창을 연다.</li>
+		<li><p>가상환경 생성
+			export PATH=~/anaconda2/bin:$PATH
+			</p># conda create --name lito4 python=3.6</li>
+		<li><p>가상환경 안에 들어간다.</p>
+			# source activate lito4</li>
+		<li><p>pip update</p>
+			(lito4) # ? pip</li>
+		<li><p>conda upgrade</p>
+			(lito4) # conda update conda</li>
+		<li><p>pytorch 설치</p>
+			(lito4) # conda install pytorch-cpu torchvision-cpu -c pytorch</li>
+		
+		<li><p>가상환경 위치</p>
+			root/anaconda2/envs/lito4/bin/python3.6</li>
+
+		<li><p>vi 편집</p>
+			vi 파일이름, i 입력모드, Esc, :wq</li>
+
+		<li><p>파이참 사용</p>
+			log-in 모드에서 ./lito4.sh 입력하고 기다린다.</li>
+
+		<li><p>가상환경 이름, 프로젝트 이름</p>
+			모두 lito4</li>
+
+
+
+	</ol>
+</body>
+</html>
